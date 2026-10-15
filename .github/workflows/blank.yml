@@ -12,7 +12,7 @@ jobs:
 
       - name: Extract ZIP File
         run: |
-          VocalForge-stage1.zip -d .
+          VocalForge-stage1.zip-d .
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
